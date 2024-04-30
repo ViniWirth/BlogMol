@@ -1,0 +1,77 @@
+
+body{
+    font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    box-shadow: 2px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.titleSlogan{
+    text-align: center;
+    margin-top: 3vw;
+    padding: 0;
+}
+
+.titulo{
+  font-family: "EB Garamond", serif;
+  font-size: 60px;
+  margin-bottom: -0.009vw;
+}
+
+.slogan{
+    font-size: 15px;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.divCard{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+    width: 100%;
+}
+
+.card{
+    margin: 1.3vw;
+    text-align: justify;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*VIEW PAGE*/
+
+.viewTitle{
+    text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.viewDivImg{
+    display: flex;
+    justify-content: center;
+}
+
+.viewImg{
+    width: 60vw;
+    border-radius: 5px;
+}
+
+.viewDivDescription{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1vw;
+}
+
+.viewDescription{
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
