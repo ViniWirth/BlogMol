@@ -1,11 +1,12 @@
 
 body{
     font-family: "Raleway", sans-serif;
-    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 header{
-    box-shadow: 2px 1px 0px rgba(0, 0, 0, 0.2);
+    border-bottom: solid #CCCCCC 0.8px;
 }
 
 .titleSlogan{
@@ -28,17 +29,20 @@ header{
     text-align: center;
 }
 
-.divCard{
+.col-lg-6{
     display: flex;
     justify-content: center;
+}
+
+.divCard{
     margin-top: 2vw;
-    width: 100%;
+    margin-left: 9vw;
+    margin-right: 9vw;
 }
 
 .card{
     margin: 1.3vw;
     text-align: justify;
-    
 }
 
 a{
@@ -60,18 +64,134 @@ a{
 }
 
 .viewImg{
-    width: 60vw;
+    width: 50vw;
     border-radius: 5px;
 }
 
 .viewDivDescription{
-    margin-left: 20%;
     margin-right: 20%;
     margin-top: 1vw;
 }
 
 .viewDescription{
     text-align: justify;
-    font-size: 1.5vw;
+    font-size: 23px;
 }
+
+.footer {
+    background-color: #ffffff; /* Fundo discreto */
+    padding: 10px 0; /* Espaçamento interno */
+    font-size: 14px; /* Tamanho da fonte */
+  }
+  
+  .footer p {
+    margin-bottom: 0; /* Remover margem inferior do parágrafo */
+  }
+  
+  footer{
+    margin-top: 2vw;
+    border-top: solid #CCCCCC 0.8px;
+  }
+
+  .viewCommentTitle{
+    margin-left: 3.5vw;
+    margin-top: 2vw;
+  }
+
+  .comments {
+    margin-top: 2vw;
+    margin-left: 3.5vw;
+  }
+  
+  .comments-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .comment {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .comment-info {
+    flex-grow: 1;
+  }
+  
+  .comment-author {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .comment-date {
+    font-size: 14px;
+    color: #999999;
+  }
+  
+  .comment-content {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .comment-actions {
+    display: flex;
+  }
+  
+  .btn-like,
+  .btn-reply {
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  @media (max-width: 992px) {
+
+    .viewImg{
+        width: 90vw;
+        border-radius: 5px;
+    }
+
+    .viewDivDescription{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .viewCommentTitle{
+        margin-left: 5vw;
+    }
+
+    .comments {
+        margin-top: 2vw;
+        margin-left: 5vw;
+      }
+
+    .divCard{
+        margin-top: 2vw;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+
+    
+  }
+
+  
+  
 
